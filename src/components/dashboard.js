@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { parseCSV } from '../utils/parseCSV';
-import DataTable from './dataTable.';
+import DataTable from './dataTable';
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
